@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica;
+  }
+body,
+html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.wrapper {
+    position: relative;
+    height: 100%;
+}
+
+.wrapper a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-width: 500px;
+}
+
+.wrapper img {
+    display: block;
+    width: 100%;
+}
+
+.wrapper a:nth-of-type(1) {
+    left: 50px;
+}
+
+.wrapper a:nth-of-type(2) {
+    left: 600px;
+}
+
+.wrapper a:nth-of-type(3) {
+    left: 1100px;
+    top: 100px;
+}
+
+.wrapper a:nth-of-type(4) {
+    left: 600px;
+    top: 500px;
+}
+
+.wrapper a:nth-of-type(5) {
+    left: 1630px;
+}
+
+.wrapper a:nth-of-type(6) {
+    width: 300px;
+    left: 1230px;
+    top: 500px;
+}
+
+.wrapper a:nth-of-type(7) {
+    width: 300px;
+    left: 10px;
+    top: 300px;
+}
+
+.wrapper a:nth-of-type(8) {
+    left: 1200px;
+    top: 1000px;
+}
+
+.wrapper a:nth-of-type(9) {
+    left: 1800px;
+    top: 600px;
+}
+
+.wrapper a:nth-of-type(10) {
+    left: 500px;
+    top: 1200px;
+}
+
+.wrapper a:nth-of-type(11) {
+    left: -500px;
+    width: 300px;
+}
+
+.wrapper a:nth-of-type(12) {
+    left: -500px;
+    top: 900px;
+}
+
+.t13 {
+    width: fit-content;
+    display: flex;
+    justify-content: start;
+    position: fixed;
+    left: 100px;
+    padding: 0 20px;
+    border-radius: 30px;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 24px;
+    bottom: 100px;
+}
+
+.t13 a,
+.t13 span {
+    margin-right: 10px;
+    background-color: #bcdcf9;
+    text-decoration: none;
+    color: #777;
+    padding: 0 10px;
+    border-radius: 30px;
+}
+
+.t13 a.active {
+    color: #333;
+}
