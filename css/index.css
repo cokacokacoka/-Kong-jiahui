@@ -5,7 +5,8 @@
 
 body {
     font-family: Helvetica;
-  }
+}
+
 body,
 html {
     width: 100%;
@@ -19,6 +20,11 @@ video {
     object-fit: cover;
     position: absolute;
     z-index: -1;
+}
+
+.box {
+    width: 3200px;
+    position: relative;
 }
 
 .wrapper {
@@ -123,4 +129,27 @@ video {
 
 .t13 a.active {
     color: #333;
+}
+
+
+.wrapper:nth-child(2) {
+    left: -100%;
+}
+
+.wrapper:nth-child(3) {
+    right: -100%;
+}
+.wrapper:nth-child(4) {
+    bottom:  -2000px;
+}
+.wrapper:nth-child(5) {
+    top:  -2000px;
+}
+#tutu{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    height: 100px;
+    margin-left: 85px;
 }

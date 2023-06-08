@@ -1,204 +1,212 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" href="../swiper/swiper-bundle.min.css" />
+	<script src="../swiper/swiper-bundle.min.js"></script>
+	<link rel="stylesheet" href="css/index.css">
+	<style>
+		* {
+			margin: 0px;
+			padding: 0px;
+			color: white;
+			
+			
+		}
 
-<head>
-	<meta charset="utf-8">
-	<title></title>
-</head>
+		body{
+			background-color: #f8b2b0;
+            font-family: Helvetica;
+  }
+  h2{
+	font-weight: bold;
+			font-size: 30px;
+  }
 
-<link rel="stylesheet" href="./index.css">
-<style>
-	body {
-		background-color: #f8b2b0;
-		font-family: Helvetica;
-		padding: 0 100px;
-	}
+  h6{
+	font-weight: bold;
+			font-size: 30px;
+			
+  }
 
-	* {
-		margin: 0px;
-		padding: 0px;
-		color: white;
-		line-height: 25px;
-	}
+		#bk {
+			position: absolute;
+			right: 0px;
+			bottom: 0px;
+			width: 100%;
+			height: 1000px;
+			width: auto;height: 1300px;;
+			z-index: -11;
+			position: fixed;
+		}
 
-	h1 {
-		font-weight: bold;
-		font-size: 55px;
-	}
-
-	h2 {
-		font-weight: bold;
-		font-size: 30px;
-	}
-
-	#bk {
-		position: absolute;
-		right: 0px;
-		bottom: 0px;
-		width: 100%;
-		height: 1000px;
-		width: auto;
-		height: 1300px;
-		;
-		z-index: -11;
-		position: fixed;
-	}
-
-
-
-	li {
-		list-style: none;
-	}
-
-	#bar {
-		top: 3%;
-		position: fixed;
-		right: 6%;
-
-	}
-
-
-	#first {
-		width: 52%;
-		height: 800px;
-		margin-bottom: 80px;
-
-	}
-
-	#second {
-		width: 700px;
-		margin-top: -80px;
-	}
-
-	#second>p {
-		line-height: 35px;
 		
-	}
 
-	.lio {
-		font-size: xx-large;
-	}
+		li {
+			list-style: none;
+		}
 
-	.sce {
-		color: dimgray;
-		font-size: larger;
-	}
+		#bar {
+			top: 3%;
+			position: fixed;
+			right: 6%;
 
-	#bb {
-		display: grid;
-		grid-template-columns: repeat(2, 220px);
-		grid-gap: 30px;
-	}
+		}
 
-	#bleft>p {
-		line-height: 30px;
-	}
+		#menu {
+			padding-left: 70px;
+		}
 
-	#bright>p {
-		line-height: 25px;
-	}
+		#first {
+			width: 100%;
+			height: 800px;
+		}
 
-	#box2 {
-		display: grid;
-		grid-template-columns: repeat(3, 300px);
-		grid-gap: 20px;
-		grid-template-rows: 300px;
-	}
+		#second {
+			width: 700px;
+			margin-top: -80px;
+		}
 
-	#third {
-		margin-top: 60px;
-		margin-bottom: 30px;
-	}
+		#second>p {
+			line-height: 35px;
+			
+		}
 
-	#c>img {
-		width: 100%;
-		height: auto;
+		.lio {
+			font-size: xx-large;
+		}
 
-	}
+		.sce {
+			color: dimgray;
+			font-size: larger;
+			
+		}
 
-	#b>img {
-		width: 100%;
-		height: auto;
-		position: relative;
-		/* 设置容器为相对定位 */
-		top: -40px;
-	}
+		#bb {
+			display: grid;
+			grid-template-columns: repeat(2, 220px);
+			grid-gap: 30px;
+		}
 
-	#c>p {
-		line-height: 100px;
-	}
+		#bleft>p {
+			line-height: 30px;
+		}
 
-	.bo {
-		margin-top: 100px;
-		margin-left: -70px;
-		width: 300px;
-		height: 200px;
-	}
+		#bright>p {
+			line-height: 25px;
+		}
 
-	.swiper {
-		width: 300px;
-		height: 200px;
-	}
+		#box2 {
+			display: grid;
+			grid-template-columns: repeat(3, 300px);
+			grid-gap: 20px;
+			grid-template-rows: 300px;
+		}
 
-	.swiper-slide>img {
-		width: 100%;
-		height: 100%;
-	}
+		#third {
+			margin-top: 60px;
+			margin-bottom: 30px;
+		}
 
-	.swiper-button-prev {
-		color: #96a6ab;
-	}
+		#c>img {
+			width:auto;
+			height:180px;
+		}
 
-	.swiper-button-next {
-		color: #96a6ab;
-	}
-</style>
+		#b>img {
+			width: auto;
+			height: 180px;
+			margin-bottom: 30px;
+			
+		}
 
-<body>
-	<aside class="mainRight">
-		<nav>
-			<h2 style=color:#777>VIDEO</h2>
-			<a href="../html 定格1/index.html">Don't forget me</a>
-			<a href="#">Listen! someone is coming</a>
-			<a href="#">sea thorn</a>
-			<a href="#">回忆中的家</a>
-			<a href="#">Doomsday tide</a>
-			<h2 style=color:#777>BOOK</h2>
-			<a href="../html housebook/index.html">今日店休</a>
-			<a href="#">弹幕上海</a>
-			<a href="#">猫咪计划</a>
-			<a href="#">sun set</a>
-			<h2 style=color:#777>WEBSITE</h2>
-			<a href="https://readymag.com/u707027904/4247006/">Privacy park</a>
-			<h3>spark<h3>
-			<h2 style=color:#777>BRAND</h2>
-			<a href="#">sun set</a>
-			<h3>spark<h3>
-		</nav>
-	</aside>
+		
 
-	<div id="menu">
-		<div id="first">
-			<h1 style="margin-top: 20px;margin-bottom: 30px;font-size: 55px;padding-top: 80px;">Spark</h1>
-			<p style="margin-bottom: 60px;
-				font-size: 20px;">2022</p>
+		.bo {
+			margin-top: 100px;
+			margin-left: -70px;
+			width: 300px;
+			height: 200px;
+		}
 
-			<video width="100%" height=500px ;margin-left=-2000px; src="../images1/Spark.mov" autoplay loop
-				muted></video>
-		</div>
-		<div id="second">
-			<h2 style="background-color: transparent; color: #fff;">Introduction</h2>
-			<p>
-				Spark app is dedicated to being an easy-to use, no-holds-barred online dating and
-				relationship app for middle-aged and older
-				adults. We offer diverse, reliable and high quality social features from the user's
-				perspective, connecting every user who is
-				eager to connect with others and wants to
-				ignite a spark of romantic love.
-			</p>
+		.swiper {
+			width: 300px;
+			height: 200px;
+		}
 
+		.swiper-slide>img {
+			width: 100%;
+			height: 100%;
+		}
+		.swiper-button-prev{color: #96a6ab;}
+		.swiper-button-next{color: #96a6ab;
+		}
+		
+	</style>
+	<body>
+		
+		
+		<aside class="mainRight">
+			<nav>
+				<h2 style=color:#777>VIDEO</h2>
+				<a href="../html 定格1/index.html">Don't forget me</a>
+				<a href="../Listen!/index.html">Listen! someone is coming</a>
+				<a href="../thorn/index.html">sea thorn</a>
+				<a href="../space/index.html">回忆中的家</a>
+				<a href="../tide/index.html">Doomsday tide</a>
+				<h2 style=color:#777>BOOK</h2>
+				<a href="../html housebook/index.html">今日店休</a>
+				<a href="../danmu/index.html">弹幕上海</a>
+				<a href="../danmu/index.html">猫咪计划</a>
+				<a href="../sunset/index.html">sun set</a>
+				<h2 style=color:#777>WEBSITE</h2>
+				<a href="https://readymag.com/u707027904/4247006/">Privacy park</a>
+				<h3>spark</h3>
+				<h2 style=color:#777>BRAND</h2>
+				<a href="../sunset/index.html">sun set</a>
+				<h3>spark</h3>
+				<a href="../zizi/index.html">Coffee font</a>
+				<br>
+				<a style="color:#bcdcf9;
+				font-size: 30px;
+				text-shadow: -1px -1px 1px #675b5b,
+				0px 4px 1px rgb(84, 78, 78),
+				4px 4px 5px  rgb(122, 113, 113),
+				0px 0px 7px  rgb(212, 196, 196);" href="../index.html">back</a>
+				
+			</nav>
+		</aside>
+
+		<div id="menu">
+			<div id="first">
+
+				<h1 style=" font-size: 55px;
+				color: #fff;
+				margin-bottom: 10px;
+				font-weight: bold;
+				margin-top: 88px;">Don't forget me</h1>
+
+				<p style="margin-bottom: 100px;font-size: 20px;">2021</p>
+				<video style="height: 450px;" src="../images1/Spark.mov" autoplay loop muted></video>
+			</div>
+			<div id="second">
+				<p style=
+					font-weight:bold;font-size:30px>Conception</p>
+				
+				<p>
+					Spark app is dedicated to being an easy-to use, no-holds-barred online dating and
+    relationship app for middle-aged and older
+    adults. We offer diverse, reliable and high quality social features from the user's
+    perspective, connecting every user who is
+    eager to connect with others and wants to
+    ignite a spark of romantic love.
+				</p>
+				
+			</div>
 			<div id="third">
-				<h2> </h2>
+
 				<div id="box2">
 					<div id="c">
 						<img src="../images1/60.png">
@@ -216,31 +224,15 @@
 						<img src="../images1/54.png">
 					</div>
 					<div id="b">
-						<img src="../images1/58.png">
+						<img src="../images1/58.png" style="margin-right: 20px;">
 					</div>
 					<div id="b">
 						<img src="../images1/53.png">
 					</div>
+					
+							
 
-				</div>
+	
+	
 
-			</div>
-		</div>
-	</div>
-
-	<script>
-		var mySwiper = new Swiper('.swiper', {
-			direction: 'horizontal', // 垂直切换选项
-			loop: true, // 循环模式选项
-			// 如果需要前进后退按钮
-			navigation: {
-				nextEl: '.swiper-button-next',
-				prevEl: '.swiper-button-prev',
-			},
-
-		})
-	</script>
-
-</body>
-
-</html>
+	

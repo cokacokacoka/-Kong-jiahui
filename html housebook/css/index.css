@@ -140,7 +140,7 @@ aside nav a {
     left: 0;
     top: 50%;
     font-size: 30px;
-    color: #fff;
+    color: #bcdcf9;
     /* background-color: #eeeeee55; */
     padding: 20px;
     transform: translateY(-50%);
@@ -151,21 +151,32 @@ aside nav a {
     right: 0;
     top: 50%;
     font-size: 30px;
-    color: #fff;
+    color: #bcdcf9;
     /* background-color: #eeeeee55; */
     padding: 20px;
     transform: translateY(-50%);
+   
 }
 
 .next:hover,
 .prev:hover {
-    background-color:black;
+    text-shadow: -1px -1px 1px #675b5b,
+    0px 4px 1px rgb(84, 78, 78),
+    4px 4px 5px  rgb(122, 113, 113),
+    0px 0px 7px  rgb(212, 196, 196);
 }
 
 /* banner end */
 
 .title {
     font-size: 55px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.title1 {
+    font-size: 30px;
     color: #fff;
     margin-bottom: 10px;
     font-weight: bold;
@@ -179,7 +190,7 @@ aside nav a {
 
 .text {
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 40px;
 }
 
@@ -187,6 +198,7 @@ aside nav a {
     display: flex;
     justify-content: start;
     margin-top: 20px;
+    margin-bottom: 80px;
 }
 
 .minImages img {
@@ -199,6 +211,7 @@ aside nav a {
     display: flex;
     justify-content: left;
     margin: 20px 0;
+    margin-bottom: 80px;
 }
 
 .imgLeft img {
@@ -206,16 +219,59 @@ aside nav a {
     width: 300px;
 }
 
+.imgz {
+    display: flex;
+    justify-content:right;
+    margin: 20px 0;
+    margin-bottom: 80px;
+}
+
+.imgz img{
+    display: block;
+    width: 300px;
+}
+
+.imgp {
+    display: flex;
+    
+    margin: 20px 0;
+    margin-bottom: 80px;
+    margin-left: 100px;
+}
+
+.imgp img{
+    display: block;
+    width: 250px;
+    
+}
+
 .imgRight {
     display: flex;
     justify-content: right;
     margin: 20px 0;
+    margin-bottom: 80px;
+    
 }
 
 .imgRight img {
     display: block;
     width: 600px;
 }
+
+.imgo{
+    display: flex;
+    justify-content: left;
+    margin: 20px 0;
+    margin-bottom: 3px;
+    
+}
+
+.imgo img {
+    display: block;
+    width: 600px;
+}
+
+
 
 .imgCenter {
     display: flex;
@@ -228,10 +284,12 @@ aside nav a {
     width: 31%;
 }
 .mainRight{
-    margin-top: 20px; 
+    margin-top: 80px; 
     font-size: 17px;
     float: right;
-    
+    position: fixed;
+    margin-right: 80px;
+   
 }
 h2{
    
